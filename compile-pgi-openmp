@@ -1,0 +1,2 @@
+pgcc -fast -mp -Minfo -Mllvm -I ../common pgi-openmp-laplace2d.c -o pgi-openmp-laplace2d
+

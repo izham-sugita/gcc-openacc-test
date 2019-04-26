@@ -1,0 +1,1 @@
+gcc-8.3 -Ofast -fopenacc -foffload=-lm -foffload="-O3" -foffload=nvptx-none -fno-float-store -I ../common gcc-laplace2d-swap.c -o gcc-laplace2d-swap -lm -lcuda

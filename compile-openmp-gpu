@@ -1,0 +1,2 @@
+gcc-8.3 -O3 -fopenmp -foffload=-lm -Wall -I ../common gcc-openmp-offload-laplace2d.c -lm
+
